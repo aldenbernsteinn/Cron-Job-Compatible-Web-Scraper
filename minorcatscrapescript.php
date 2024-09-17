@@ -25,7 +25,6 @@ if (curl_errno($ch)) {
 // Close the cURL session
 curl_close($ch);
 
-// Proceed with the rest of your code to process the $response
 // Create a DOMDocument to parse the HTML
 $dom = new DOMDocument();
 libxml_use_internal_errors(true); // Disable libxml errors
